@@ -1,5 +1,7 @@
 # surround.vim
 
+Forked from [tpope/vim-surround](https://github.com/tpope/vim-surround) to simplify mappings from `ys` to `s` and addng surrounding space to close matchpairs.
+
 Surround.vim is all about "surroundings": parentheses, brackets, quotes,
 XML tags, and more.  The plugin provides mappings to easily delete,
 change and add such surroundings in pairs.
