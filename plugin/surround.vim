@@ -601,15 +601,8 @@ if !exists("g:surround_no_mappings") || ! g:surround_no_mappings
   nmap cs  <Plug>Csurround
   nmap cS  <Plug>CSurround
   nmap s   <Plug>Ysurround
-  nmap ss  <Plug>Yssurround
+  nmap S   <Plug>Yssurround
   xmap s   <Plug>VSurround
-  if !exists("g:surround_no_insert_mappings") || ! g:surround_no_insert_mappings
-    if !hasmapto("<Plug>Isurround","i") && "" == mapcheck("<C-S>","i")
-      imap    <C-S> <Plug>Isurround
-    endif
-    imap      <C-G>s <Plug>Isurround
-    imap      <C-G>S <Plug>ISurround
-  endif
 endif
 
 " vim:set ft=vim sw=2 sts=2 et:
